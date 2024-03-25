@@ -12,8 +12,9 @@ javac HeadCommand.java
 java HeadCommand <file> <lines>
 ```
 
-***※<file>の部分には、sample.txtが存在するディレクトリを指定。<lines>の部分は1～15までの整数を入力。
-例：java HeadCommand sample.txt 5***
+※<file>の部分には、sample.txtが存在するディレクトリを指定。<lines>の部分は1～15までの整数を入力。
+例：java HeadCommand sample.txt 5
+（先頭から5行目までを表示）
 
 **工夫した点**
 ・headの-nオプションを再現いたしました。
